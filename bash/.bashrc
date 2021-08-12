@@ -1,5 +1,5 @@
 # Editor configuration
-export EDITOR='vim'
+export EDITOR='nvim'
 
 export CLICOLOR=1
 export PS1="\[\e[m\] \[\e[32m\]\w\[\e[m\] \[\e[34m\]»\[\e[m\] "
@@ -10,10 +10,12 @@ alias ls='ls -G'
 
 # NeoVim as default instead of VIM
 alias vi="nvim"
+alias vim="nvim"
+alias oldvim="vim"
 
 # Alias Filepaths
 alias home="cd ~"
-alias dconfig='cd ~/.conf/'
+alias ddot='cd ~/.dotfiles/'
 alias dgit="cd ~/Documents/_git/"
 alias dyodel="cd ~/Documents/_git/HSLU/artificial_yodel/music_embedding/"
 alias dgithub='cd ~/Documents/_git/GitHub/'

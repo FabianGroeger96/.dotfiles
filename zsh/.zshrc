@@ -72,10 +72,10 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-git
-zsh-autosuggestions
-docker
-docker-compose
+	git
+	zsh-autosuggestions
+	docker
+	docker-compose
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -104,7 +104,7 @@ export TERM=xterm-256color
 
 # Alias Filepaths
 alias home="cd ~"
-alias dconfig='cd ~/.conf/'
+alias ddot='cd ~/.dotfiles/'
 alias dgit="cd ~/Documents/_git/"
 alias dyodel="cd ~/Documents/_git/HSLU/artificial_yodel/music_embedding/"
 alias dgithub='cd ~/Documents/_git/GitHub/'
@@ -116,7 +116,11 @@ alias gpu_ws04='ssh fgroger@10.180.39.14'
 alias hslu_vm='ssh fgroger@personal-grf.res.el.eee.intern'
 alias swarm_vm='ssh fgroger@abiz-qaswarm-mng02.res.el.eee.intern'
 
-# Commands
+# Alias utils
+alias open='xdg-open'
 alias ll="ls -al"
+alias vi="nvim"
+alias vim="nvim"
+alias oldvim="vim"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
