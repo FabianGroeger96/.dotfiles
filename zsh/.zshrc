@@ -5,7 +5,7 @@
 DISABLE_MAGIC_FUNCTIONS=true
 export ZSH=$HOME/.oh-my-zsh
 export DOTFILES=$HOME/.dotfiles
-export STOW_FOLDERS="bash,i3,nvim,tmux,vim,zsh"
+export STOW_FOLDERS="bash,i3,nvim,tmux,vim,zsh,polybar"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,

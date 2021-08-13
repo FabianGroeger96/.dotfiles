@@ -95,6 +95,9 @@ bindsym $super+Shift+4 move container to workspace 4
 bindsym $super+Shift+5 move container to workspace 5
 bindsym $super+Shift+6 move container to workspace 6
 
+# Hide borders
+hide_edge_borders none
+
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $super+Shift+r restart
 
@@ -103,6 +106,9 @@ bindsym $super+q exec "i3-nagbar -t warning -m 'Really, exit?' -b 'Yes' 'i3-msg 
 
 # Suspend
 bindsym $super+Shift+period exec systemctl suspend
+
+# Lock
+bindsym $super+x exec i3lock -c ffffff --dpms
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -115,20 +121,20 @@ mode "resize" {
 bindsym $super+r mode "resize"
 
 # panel
-bar {
-        colors {
-        background #2f343f
-        statusline #2f343f
-        separator #4b5262
+#bar {
+        #colors {
+        #background #2f343f
+        #statusline #2f343f
+        #separator #4b5262
 
         # colour of border, background, and text
-        focused_workspace       #2f343f #bf616a #d8dee8
-        active_workspace        #2f343f #2f343f #d8dee8
-        inactive_workspace      #2f343f #2f343f #d8dee8
-        urgent_workspacei       #2f343f #ebcb8b #2f343f
-    }
-        status_command i3status
-}
+        #focused_workspace       #2f343f #bf616a #d8dee8
+        #active_workspace        #2f343f #2f343f #d8dee8
+        #inactive_workspace      #2f343f #2f343f #d8dee8
+        #urgent_workspacei       #2f343f #ebcb8b #2f343f
+    #}
+        #status_command i3status
+#}
 
 # window rules, you can find the window class using xprop
 for_window [class=".*"] border pixel 4
@@ -149,3 +155,6 @@ client.unfocused            #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.urgent               #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.placeholder          #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.background           #2f343f
+
+# polybar
+exec_always --no-startup-id $HOME/.config/polybar/run.sh
