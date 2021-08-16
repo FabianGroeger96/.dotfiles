@@ -68,6 +68,9 @@ Plug 'tpope/vim-fugitive'
 " Auto-close braces and scopes
 Plug 'jiangmiao/auto-pairs'
 
+" Vim be good game to get better at it
+Plug 'ThePrimeagen/vim-be-good'
+
 call plug#end()
 
 " Theme options
