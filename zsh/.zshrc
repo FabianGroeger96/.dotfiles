@@ -122,5 +122,9 @@ alias ll="ls -al"
 alias vi="nvim"
 alias vim="nvim"
 alias oldvim="vim"
+alias python="python3"
+alias oldpython="python"
+alias pip="pip3"
+alias oldpip="pip"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
