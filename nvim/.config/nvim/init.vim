@@ -164,3 +164,14 @@ let g:lightline = {
 
 " register compoments:
 call lightline#coc#register()
+
+" coc default extensions
+let g:coc_global_extensions = [
+            \ 'coc-docker',
+            \ 'coc-git',
+            \ 'coc-json',
+            \ 'coc-prettier',
+            \ 'coc-pyright',
+            \ 'coc-spell-checker',
+            \ 'coc-yaml',
+            \ ]
