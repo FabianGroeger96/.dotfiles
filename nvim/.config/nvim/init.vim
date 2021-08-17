@@ -174,4 +174,5 @@ let g:coc_global_extensions = [
             \ 'coc-pyright',
             \ 'coc-spell-checker',
             \ 'coc-yaml',
+            \ 'coc-tabnine',
             \ ]
