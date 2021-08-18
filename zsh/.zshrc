@@ -1,5 +1,15 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+# Make zsh independet for different OS
+case `uname` in
+  Darwin)
+    # commands for OS X go here
+		PATH="/usr/local/opt/make/libexec/gnubin:$PATH"
+  ;;
+  Linux)
+    # commands for Linux go here
+  ;;
+esac
 
 # Path to your oh-my-zsh installation.
 DISABLE_MAGIC_FUNCTIONS=true
@@ -76,9 +86,15 @@ plugins=(
 	zsh-autosuggestions
 	docker
 	docker-compose
+	#vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
+
+# VI mode settings
+VI_MODE_RESET_PROMPT_ON_MODE_CHANGE=true
+VI_MODE_SET_CURSOR=true
+MODE_INDICATOR="%F{yellow}+%f"
 
 # User configuration
 
