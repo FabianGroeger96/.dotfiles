@@ -103,6 +103,18 @@ require('telescope').load_extension('fzy_native')
 EOF
 
 " Coc
+" default extensions
+let g:coc_global_extensions = [
+            \ 'coc-docker',
+            \ 'coc-git',
+            \ 'coc-json',
+            \ 'coc-prettier',
+            \ 'coc-pyright',
+            \ 'coc-spell-checker',
+            \ 'coc-yaml',
+            \ 'coc-tabnine',
+            \ 'coc-clangd',
+            \ ]
 " Code action on <leader>a
 vmap <leader>a <Plug>(coc-codeaction-selected)<CR>
 nmap <leader>a <Plug>(coc-codeaction-selected)<CR>
@@ -164,15 +176,3 @@ let g:lightline = {
 
 " register compoments:
 call lightline#coc#register()
-
-" coc default extensions
-let g:coc_global_extensions = [
-            \ 'coc-docker',
-            \ 'coc-git',
-            \ 'coc-json',
-            \ 'coc-prettier',
-            \ 'coc-pyright',
-            \ 'coc-spell-checker',
-            \ 'coc-yaml',
-            \ 'coc-tabnine',
-            \ ]

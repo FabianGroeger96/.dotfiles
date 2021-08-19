@@ -86,7 +86,7 @@ plugins=(
 	zsh-autosuggestions
 	docker
 	docker-compose
-	#vi-mode
+	vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
