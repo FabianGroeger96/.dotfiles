@@ -161,7 +161,7 @@ let NERDTreeShowHidden=1
 let g:NERDCompactSexyComs = 1
 
 " Doge (Docstring)
-let g:doge_doc_standard_python = 'reST'
+let g:doge_doc_standard_python = 'numpy'
 
 " HTML configs
 autocmd BufRead,BufNewFile *.htm,*.html,*.js,*.css setlocal tabstop=4 shiftwidth=4 softtabstop=4
