@@ -39,6 +39,8 @@ call plug#begin('~/.vim/plugged')
 " Theme
 Plug 'morhetz/gruvbox'
 
+Plug 'wellle/targets.vim'
+
 " Statusline
 Plug 'itchyny/lightline.vim'
 Plug 'josa42/vim-lightline-coc'

@@ -1,7 +1,12 @@
 {
   "coc.preferences.formatOnSaveFiletypes": ["py", "yaml", "json"],
   "python.linting.flake8Enabled": true,
-  "python.formatting.provider": "black",
   "python.pythonPath": "python3",
   "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/12.0.1/clangd_12.0.1/bin/clangd",
+  "cSpell.userWords": [
+    "dbmdz",
+    "jsonify",
+    "keras",
+    "sklearn"
+  ],
 }
