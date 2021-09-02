@@ -123,6 +123,7 @@ alias home="cd ~"
 alias ddot='cd ~/.dotfiles/'
 alias dgit="cd ~/Documents/_git/"
 alias dhslu="cd ~/Documents/_git/HSLU/"
+alias djay="cd ~/Documents/_git/Jaywalker/"
 alias dyodel="cd ~/Documents/_git/HSLU/artificial_yodel/music_embedding/"
 alias dgithub='cd ~/Documents/_git/GitHub/'
 alias dbrain='cd ~/Dropbox/Obsidian/Second\ Brain/'
