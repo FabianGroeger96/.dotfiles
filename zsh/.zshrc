@@ -126,6 +126,7 @@ alias dhslu="cd ~/Documents/_git/HSLU/"
 alias djay="cd ~/Documents/_git/Jaywalker/"
 alias dyodel="cd ~/Documents/_git/HSLU/artificial_yodel/music_embedding/"
 alias dgithub='cd ~/Documents/_git/GitHub/'
+alias dhotel='cd ~/Documents/_git/GitHub/vm01-bias-detection/'
 alias dbrain='cd ~/Dropbox/Obsidian/Second\ Brain/'
 
 # Alias ssh
