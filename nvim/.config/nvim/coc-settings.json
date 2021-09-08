@@ -10,6 +10,7 @@
     "jsonify",
     "keras",
     "nltk",
+    "plotly",
     "sklearn"
   ],
 }
