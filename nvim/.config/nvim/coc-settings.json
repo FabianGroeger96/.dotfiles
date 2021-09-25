@@ -7,10 +7,14 @@
     "dbmdz",
     "fontawesome",
     "fortawesome",
+    "iloc",
     "jsonify",
     "keras",
+    "lbls",
     "nltk",
+    "ohot",
     "plotly",
+    "pyplot",
     "sklearn"
   ],
 }
