@@ -138,7 +138,7 @@ alias dhotel='cd ~/Documents/_git/GitHub/vm01-prejudice-bias-hotel-reviews/'
 alias dbrain='cd ~/Dropbox/Obsidian/Second\ Brain/'
 
 # Alias ssh
-alias battlestation='ssh fabian@83.76.20.31'
+alias battlestation='ssh fabian@battlestation'
 alias gpu02='ssh fgroger@gpu02.res.el.eee.intern'
 alias gpu_ws04='ssh fgroger@10.180.39.14'
 alias hslu_vm='ssh fgroger@personal-grf.res.el.eee.intern'
