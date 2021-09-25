@@ -115,6 +115,13 @@ export EDITOR='nvim'
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# Preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+  ZSH_THEME="robbyrussell"
+else
+  ZSH_THEME="af-magic"
+fi
+
 # font color for tmux sessions
 export TERM=xterm-256color
 
@@ -131,7 +138,7 @@ alias dhotel='cd ~/Documents/_git/GitHub/vm01-prejudice-bias-hotel-reviews/'
 alias dbrain='cd ~/Dropbox/Obsidian/Second\ Brain/'
 
 # Alias ssh
-alias battlestation='ssh fabian@192.168.1.106'
+alias battlestation='ssh fabian@83.76.20.31'
 alias gpu02='ssh fgroger@gpu02.res.el.eee.intern'
 alias gpu_ws04='ssh fgroger@10.180.39.14'
 alias hslu_vm='ssh fgroger@personal-grf.res.el.eee.intern'
