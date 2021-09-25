@@ -8,6 +8,7 @@ case `uname` in
   ;;
   Linux)
     # commands for Linux go here
+    alias open='xdg-open'
   ;;
 esac
 
@@ -115,13 +116,6 @@ export EDITOR='nvim'
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  ZSH_THEME="robbyrussell"
-else
-  ZSH_THEME="af-magic"
-fi
-
 # font color for tmux sessions
 export TERM=xterm-256color
 
@@ -145,7 +139,6 @@ alias hslu_vm='ssh fgroger@personal-grf.res.el.eee.intern'
 alias swarm_vm='ssh fgroger@abiz-qaswarm-mng02.res.el.eee.intern'
 
 # Alias utils
-alias open='xdg-open'
 alias ll="ls -al"
 alias vi="nvim"
 alias vim="nvim"
