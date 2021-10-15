@@ -1,6 +1,7 @@
 {
   "coc.preferences.formatOnSaveFiletypes": ["py", "yaml", "json"],
   "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "yapf",
   "python.pythonPath": "python3",
   "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/12.0.1/clangd_12.0.1/bin/clangd",
   "cSpell.userWords": [
@@ -12,8 +13,10 @@
     "Wandb",
     "annot",
     "asarray",
+    "astype",
     "bcolors",
     "bilstm",
+    "coefs",
     "dbmdz",
     "demonym",
     "demonyme",
@@ -34,8 +37,13 @@
     "nltk",
     "ohot",
     "plotly",
+    "preds",
     "pyplot",
+    "regularizers",
+    "relu",
     "sklearn",
+    "umlate",
+    "umlaute",
     "yaxis"
   ],
 }

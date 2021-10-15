@@ -65,6 +65,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'tmhedberg/matchit'
 " Intellisense engine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'google/yapf'
 " Git integration
 Plug 'tpope/vim-fugitive'
 " Auto-close braces and scopes
@@ -168,6 +169,9 @@ let g:doge_doc_standard_python = 'numpy'
 " HTML configs
 autocmd BufRead,BufNewFile *.htm,*.html,*.js,*.css setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
+" Makefile configs
+autocmd FileType make setlocal noexpandtab softtabstop=0
+
 " Statusline (airline)
 let g:lightline = {
   \ 'colorscheme': 'wombat',
@@ -176,5 +180,5 @@ let g:lightline = {
   \   }
   \ }
 
-" register compoments:
+" register components:
 call lightline#coc#register()
