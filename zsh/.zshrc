@@ -116,6 +116,10 @@ export EDITOR='nvim'
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# Setting for the new UTF-8 terminal support in Lion
+LC_CTYPE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+
 # font color for tmux sessions
 export TERM=xterm-256color
 
@@ -147,5 +151,6 @@ alias python="python3"
 alias oldpython="python"
 alias pip="pip3"
 alias oldpip="pip"
+alias rclone_jwd="rclone mount crypt:/ ~/JwdSwitchEngine"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
