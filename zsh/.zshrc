@@ -9,6 +9,8 @@ case `uname` in
   Linux)
     # commands for Linux go here
     alias open='xdg-open'
+    # Path problem
+    export PATH="/home/fabian/.local/bin:$PATH"
   ;;
 esac
 
