@@ -143,6 +143,7 @@ for_window [class=".*"] border pixel 1
 #assign [class=URxvt] 1
 assign [class=Brave-browser] 2
 assign [class="Microsoft Teams - Preview"] 3
+assign [class=Slack|Zotero] 3
 #assign [class=Geany|Evince|Gucharmap|Soffice|libreoffice*] 4
 #assign [class=Audacity|Vlc|mpv|Ghb|Xfburn|Gimp*|Inkscape] 5
 #assign [class=Lxappearance|System-config-printer.py|Lxtask|GParted|Pavucontrol|Exo-helper*|Lxrandr|Arandr] 6

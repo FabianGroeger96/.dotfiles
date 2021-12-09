@@ -33,6 +33,14 @@ nnoremap <Leader>- :vertical resize -5<CR>
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 
+" Delete without yanking
+nnoremap <leader>d "_d
+vnoremap <leader>d "_d
+
+" Replace currently selected text with default register
+" without yanking it
+vnoremap <leader>p "_dP
+
 " Plugins
 call plug#begin('~/.vim/plugged')
 
