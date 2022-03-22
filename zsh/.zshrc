@@ -146,6 +146,7 @@ alias gpu02='ssh fgroger@gpu02.res.el.eee.intern'
 alias gpu_ws04='ssh fgroger@10.180.39.14'
 alias hslu_vm='ssh fgroger@personal-grf.res.el.eee.intern'
 alias swarm_vm='ssh fgroger@abiz-qaswarm-mng02.res.el.eee.intern'
+alias dgx_gpu='ssh groege0000@dgx1-navarini.scicore.unibas.ch'
 
 # Alias utils
 alias ll="ls -al"
