@@ -136,7 +136,7 @@ alias dtoilet="cd ~/Documents/_git/HSLU/oblamatik/"
 alias dgini="cd ~/Documents/_git/HSLU/room-price-gini/dynamic_pricing/"
 alias dgithub='cd ~/Documents/_git/GitHub/'
 alias dhotel='cd ~/Documents/_git/GitHub/vm01-prejudice-bias-hotel-reviews/prejudice-bias-hotel-reviews/'
-alias dderm='cd ~/Documents/_git/GitHub/vm02-self-supervised-dermatology/'
+alias dderm='cd ~/Documents/_git/GitHub/vm02-self-supervised-dermatology/self-supervised-dermatology/'
 alias dbrain='cd ~/Dropbox/Obsidian/Second\ Brain/'
 
 # Alias ssh
