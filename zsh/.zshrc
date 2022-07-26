@@ -134,6 +134,7 @@ alias djay="cd ~/Documents/_git/Jaywalker/"
 alias dyodel="cd ~/Documents/_git/HSLU/artificial_yodel/music_embedding/"
 alias dtoilet="cd ~/Documents/_git/HSLU/oblamatik/"
 alias dgini="cd ~/Documents/_git/HSLU/room-price-gini/dynamic_pricing/"
+alias ddarling="cd ~/Documents/_git/HSLU/darling/src_python/acer/"
 alias dgithub='cd ~/Documents/_git/GitHub/'
 alias dhotel='cd ~/Documents/_git/GitHub/vm01-prejudice-bias-hotel-reviews/prejudice-bias-hotel-reviews/'
 alias dderm='cd ~/Documents/_git/GitHub/vm02-self-supervised-dermatology/self-supervised-dermatology/'
@@ -157,6 +158,6 @@ alias python="python3"
 alias oldpython="python"
 alias pip="pip3"
 alias oldpip="pip"
-alias rclone_jwd="rclone mount crypt:/ ~/JwdSwitchEngine"
+alias rclone_jwd="rclone mount crypt:/ ~/JwdSwitchEngine --vfs-cache-mode full"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
